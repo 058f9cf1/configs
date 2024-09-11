@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 
 mkdir .config
 mkdir .config/i3
@@ -12,8 +12,9 @@ cp ~/.Xresources .
 cp ~/.config/hyfetch.json .config
 cp ~/.config/i3/config .config/i3
 cp ~/.config/i3blocks/config .config/i3blocks
-cp ~/.config/i3blocks/main_storage .config/i3blocks
+cp ~/.config/i3blocks/battery .config/i3blocks
 cp ~/.config/i3blocks/home .config/i3blocks
+cp ~/.config/i3blocks/main_storage .config/i3blocks
 cp ~/.config/i3blocks/volume .config/i3blocks
 cp ~/.config/i3blocks/weather .config/i3blocks
 cp ~/.config/neofetch/config.conf .config/neofetch

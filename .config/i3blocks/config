@@ -53,6 +53,11 @@ label=<span color="#FF5555"> </span>
 command=./main_storage
 interval=1
 
+[battery]
+border=#FF5555
+command=./battery
+interval=1
+
 [volume]
 border=#FFFFFF
 label=<span color="#FFFFFF"> </span>

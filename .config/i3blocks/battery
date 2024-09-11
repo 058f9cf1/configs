@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+bat0="$(cat /sys/class/power_supply/BAT0/capacity)"
+bat1="$(cat /sys/class/power_supply/BAT1/capacity)"
+
+total=$(($((bat0 + bat1))/2))
+
+printf "<span color=\"#FF5555\">"
+if [[ total -lt 10 ]]; then
+	printf " </span>"
+elif [[ total -lt 30 ]]; then
+	printf " </span>"
+elif [[ total -lt 60 ]]; then
+	printf " </span>"
+elif [[ total -lt 90 ]]; then
+	printf " </span>"
+else
+	printf " </span>"
+fi
+
+printf "%d<span color=\"#FF5555\">%%</span>\n" $total
