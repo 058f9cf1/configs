@@ -1,7 +1,9 @@
 xterm
+i3
 i3blocks
 i3lock
 rofi
 feh
-playctl
+ttf-font-awesome
+playerctl
 hyfetch
