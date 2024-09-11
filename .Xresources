@@ -1,0 +1,51 @@
+xterm*termName: xterm-256color
+
+xterm*foreground:	#ffffff
+xterm*background:	#101010
+xterm*cursorColor:	#c479a2
+
+!Black
+xterm*color0:	#1d1f21
+xterm*color8:	#666666
+
+!Red
+xterm*color1:	#c479a2
+xterm*color9:	#fa3935
+
+!Green
+xterm*color2:	#eda5cd
+xterm*color10:	#eda5cd
+
+!Yellow
+xterm*color3:	#d6c7e8
+xterm*color11:	#d9a400
+
+!Blue
+xterm*color4:	#d6c7e8
+xterm*color12:	#9ac7f8
+
+!Magenta
+xterm*color5:	#6d82d1
+xterm*color13:	#8086e8
+
+!Cyan
+xterm*color6:	#9ac7f8
+xterm*color14:	#33c5ba
+
+!White
+xterm*color7:	#ffffff
+xterm*color15:	#fdf6e3
+
+!Fonts
+xterm*faceName:		Free Mono
+xterm*faceSize:		12
+xterm*renderFont:	true
+
+!Remove trailing spaces when double clicking
+xterm*trimSelection: true
+
+!Allow zooming
+*VT100.Translations: #override \
+    Ctrl <Key> minus: smaller-vt-font() \n\
+    Ctrl <Key> plus: larger-vt-font() \n\
+    Ctrl <Key> 0: set-vt-font(d)

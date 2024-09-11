@@ -1,0 +1,20 @@
+#! /usr/bin/env bash
+
+mkdir .config
+mkdir .config/i3
+mkdir .config/i3blocks
+mkdir .config/neofetch
+mkdir Pictures
+mkdir Pictures/Backgrounds
+
+cp ~/.vimrc .
+cp ~/.Xresources .
+cp ~/.config/hyfetch.json .config
+cp ~/.config/i3/config .config/i3
+cp ~/.config/i3blocks/config .config/i3blocks
+cp ~/.config/i3blocks/main_storage .config/i3blocks
+cp ~/.config/i3blocks/home .config/i3blocks
+cp ~/.config/i3blocks/volume .config/i3blocks
+cp ~/.config/i3blocks/weather .config/i3blocks
+cp ~/.config/neofetch/config.conf .config/neofetch
+cp ~/Pictures/Backgrounds/clouds.jpg Pictures/Backgrounds
